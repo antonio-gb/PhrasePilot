@@ -3,8 +3,7 @@ use reqwest::header::{HeaderMap, HeaderValue, CONTENT_TYPE, AUTHORIZATION};
 use dotenv::dotenv;
 use std::env;
 use serde_json::json;
-
-
+//La balle
 pub async fn groq_request() -> Result<(), Box<dyn std::error::Error>> {
     dotenv().ok();
 
